@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RajanCP</title>
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />       
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+<!-- NAV -->
+    <nav>
+        <div class="container nav__container">
+            <a href="#">RajanCP</a>
+            <button class="nav__theme-btn">
+                <i class="uil uil-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+<!-- FLOATING NAV -->
+    <menu class="floating__nav">
+        <a href="#" class="active"><i class="uil uil-estate"></i></a>
+        <a href="#resume"><i class="uil uil-user"></i></a>
+        <a href="#projects"><i class="uil uil-briefcase-alt"></i></a>
+        <a href="#contact"><i class="uil uil-phone"></i></a>
+    </menu>
+    <header>
+        <div class="header__container">
+            <div class="live-bg"></div> 
+            <h1 class="home">Fullstack Developer<br/></h1>
+            <h5 class="home">
+                Hi, I'm Rajan. A developer based in London, United Kingdom.
+                <i class="uil uil-map-marker"></i>
+            </h5>
+            <div class="header__cta">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn primary">Contact Me</a>
+                <menu class="header__socials">
+                    <a href="https://github.com/RajanCP" target="_blank"><i class="uil uil-github-alt"></i></a>
+                    <a href="https://www.linkedin.com/in/rajan-patel-b7727b1a4/" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                </menu>
+            </div>
+        </div>
+    </header>
+    
+<!-- RESUME -->
+    <section id="resume">
+        <div class="container resume__container" data-aos="fade-in" data-aos-delay="200">
+            <div class="resume__left">
+                <h1>Why hire me?</h1>
+                <p><br></p>
+                <menu>
+                    <button class="btn about__btn">About me</button>
+                    <button class="btn skills__btn">Tech Stack</button>
+                    <button class="btn primary experience__btn">Experience</button>
+                    <button class="btn education__btn">Education</button>
+                </menu>
+            </div>
+            <div class="resume__right">
+            </div>
+        </div>
+    </section>
+
+<!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <h1>Recent Projects</h1>
+        <menu class="projects__categories">
+            <button class="btn" data-filter="*">All</button>
+            <button class="btn" data-filter=".frontend">Frontend</button>
+            <button class="btn" data-filter=".backend">Backend</button>
+            <button class="btn" data-filter=".fullstack">Fullstack</button>
+        </menu>
+        <div class="container projects__container"  data-aos="fade-in" data-aos-delay="200">
+            <article class="project mix fullstack" data-order="1">
+                <div class="project__image">
+                    <img src="./assets/project1.png" alt="Project One">
+                </div>
+                <h5>Javascript Projects</h5>
+                <p>
+                    A collection of mini Vanilla Javascript projects
+                </p>
+                <div class="project__cta">
+                    <a href="https://github.com/RajanCP/JavaScript" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/RajanCP/JavaScript" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            <article class="project mix frontend" data-order="2">
+                <div class="project__image">
+                    <img src="./assets/project2.png" alt="Project Two">
+                </div>
+                <h5>Frontend Mentor Challenges</h5>
+                <p>
+                A collection of completed Frontend Mentor challenges
+                </p>
+                <div class="project__cta">
+                    <a href="https://github.com/RajanCP/Frontend-Mentor-Solution" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/RajanCP/Frontend-Mentor-Solution" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            <article class="project mix frontend" data-order="3">
+                <div class="project__image">
+                    <img src="./assets/project3.png" alt="Project Three">
+                </div>
+                <h5>Avento</h5>
+                <p>
+                    Car rental project inspired by tutorial (linked on Github)
+                </p>
+                <div class="tech-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML" title="HTML" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS" title="CSS" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript" title="JavaScript" />
+                </div>
+                <div class="project__cta">
+                    <a href="https://rajancp.github.io/PP-002-Car-rental/" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/RajanCP/PP-002-Car-rental" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            <article class="project mix frontend" data-order="4">
+                <div class="project__image">
+                    <img src="./assets/project4.png" alt="Project Four">
+                </div>
+                <h5>Rent Cars</h5>
+                <p>
+                    Car rental project based on Figma design (linked on Github)
+                </p>
+                <div class="tech-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML" title="HTML" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS" title="CSS" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript" title="JavaScript" />
+                </div>
+                <div class="project__cta">
+                    <a href="https://rajancp.github.io/PP-003-Car-rental-figma/" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/RajanCP/PP-003-Car-rental-figma" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+    </section>
+
+    <!--====================== CONTACT ==========================-->
+    <section id="contact">
+        <div class="container contact__container">
+            <h1>Get in Touch</h1>
+            <p class="contact__intro">Don't like forms? Send me an email</p>
+            <menu class="contact__options">
+                <a href="mailto:rjnptl2000@gmail.com" class="contact__option" target="_blank">
+                    <i class="uil uil-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rajan-patel-b7727b1a4/" class="contact__option" target="_blank">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+            </menu>
+            <form id="contactForm" action="https://formsubmit.co/c96fd27a62bbf18a9f7e742cadcf7807" method="POST">
+                <input type="text" id="name" name="Name" placeholder="Name" required>
+                <input type="email" id="email" name="Email" placeholder="example@mail.com" required>
+                <textarea id="message" rows="7" name="Message" placeholder="Message" required></textarea>
+                <button type="submit" class="btn primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="./mix/dist/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({duration: 2000, offset: 100,once: true,});
+    </script>
+    <script src="./index.js"></script>
+</body>
+</html>
