@@ -22,8 +22,10 @@
   --color-gray-700: #313131;
   --color-gray-800: #1f1f1f;
   --color-gray-900: #0e0e0e;
+
   --container-w-lg: 74%;
   --container-w-sm: 94%;
+
   --transition: all 350ms ease;
 }
 
@@ -238,6 +240,7 @@ nav {
     transform: translateX(-50%) scale(1);
   }
 }
+
 .floating__nav a {
   color: var(--color-gray-900);
   width: 3.2rem;
@@ -258,6 +261,7 @@ nav {
 }
 
 /* LIVE BACKGROUND */
+
 .live-bg {
   position: absolute;
   top: 0;
@@ -299,6 +303,7 @@ nav {
     opacity: 0;
   }
 }
+
 /* HEADER */
 header {
   margin-top: 3rem;
@@ -512,6 +517,7 @@ header {
     transform: scale(1);
   }
 }
+
 .project:hover {
   background: transparent;
 }
@@ -646,63 +652,78 @@ form button {
 }
 
 /* MEDIA QUERIES */
+
 @media screen and (max-width: 950px) {
   .resume__container {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
+
   .resume__left menu {
     gap: 0.7rem;
   }
+
   .resume__right.skills ul {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
   }
+
   .resume__right.about ul {
     grid-template-columns: 1fr;
   }
 }
+
 @media screen and (max-width: 768px) {
   body {
     font-size: 1rem;
   }
+
   .container {
     width: var(--container-w-sm);
   }
+
   section > h1,
   section > p {
     width: var(--container-w-sm);
   }
+
   nav {
     height: 4rem;
   }
+
   .header__container {
     width: 90%;
   }
+
   .header__container p {
     margin-top: 0.4rem;
   }
+
   .header__socials {
     display: none;
   }
+
   .projects__categories {
     margin-top: 2.3rem;
   }
+
   .projects__container {
     gap: 1.5rem;
   }
+
   .swiper-wrapper {
     margin-top: 3rem;
   }
+
   .faqs__container {
     grid-template-columns: 1fr;
   }
+
   form button {
     width: 100%;
   }
+
   .contact__container {
     width: 70%;
   }
 }
-
-/*# sourceMappingURL=index.css.map */
