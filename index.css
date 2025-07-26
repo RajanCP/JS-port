@@ -51,7 +51,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-primary);
+  background: var(--color-gray-900);
 }
 
 body {
@@ -331,10 +331,6 @@ header {
   margin: 0.8rem 0 0.1rem;
 }
 
-.header__container h1 span {
-  color: var(--color-primary);
-}
-
 .header__cta {
   margin-top: 1.8rem;
   display: flex;
@@ -426,7 +422,7 @@ header {
 }
 
 .resume__right li h5 {
-  color: var(--color-primary);
+  color: var(--color-gray-900);
   margin: 0.8rem 0;
 }
 
@@ -483,8 +479,8 @@ header {
 }
 
 .projects__categories button.mixitup-control-active {
-  background: var(--color-primary);
-  color: white;
+  background-color: var(--color-gray-900);
+  color: var(--color-gray-0);
 }
 
 .projects__container {
@@ -572,8 +568,6 @@ header {
 }
 
 .contact__options a {
-  background: var(--color-gray-0);
-  color: var(--color-primary);
   padding: 1.2rem;
   border-radius: 50%;
   width: 4rem;
@@ -585,7 +579,7 @@ header {
 }
 
 .contact__options a:hover {
-  background: var(--color-primary);
+  background: var(--color-gray-900);
   color: var(--color-gray-0);
 }
 
@@ -611,8 +605,8 @@ form textarea {
 
 form input:focus,
 form textarea:focus {
-  border-color: var(--color-primary);
-  box-shadow: 0 0 8px var(--color-primary); /* Subtle glow effect */
+  border-color: var(--color-gray-900);
+  box-shadow: 0 0 8px var(--color-900);
   outline: none;
 }
 
@@ -621,7 +615,7 @@ form button {
   border: 0;
   padding: 0.8rem 2rem;
   font-size: 0.85rem;
-  background: var(--color-primary);
+  background: var(--color-900);
   color: var(--color-gray-0);
   border-radius: 0.4rem;
   cursor: pointer;

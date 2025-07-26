@@ -67,22 +67,27 @@ const skillsContent = `
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS logo" />
             <span></span>
         </li>
+            <li>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SASS logo" />
+            <span></span>
+        </li>
         <li>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript logo" />
             <span></span>
         </li>
+         <li>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" alt="TypeScript logo" />
+            <span></span>
+        </li>
         <li>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="Python logo" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" alt="Java logo" />
             <span></span>
         </li>
         <li>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="ReactJS logo" />
             <span></span>
         </li>
-        <li>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SASS logo" />
-            <span></span>
-        </li>
+        
     </ul>
 `;
 
@@ -101,6 +106,10 @@ const experienceContent = `
         <li>
           <h5>JustIT Bootcamp<span> (July 24 - October 24)</span></h5>
             <p>Skills Bootcamp in Software development</p>
+        </li>
+        <li>
+          <h5>_nology <span> (Jun 25 - Aug 25)</span></h5>
+            <p>_nology Pathway-to-Tech Programme (8 week intensive course in software engineering)</p>
         </li>
     </ul>
 `;
