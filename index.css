@@ -229,7 +229,6 @@ nav {
   animation: animateFloatingNav 1s 1s ease forwards;
 }
 
-/* background for dark theme */
 .dark-theme-variables .floating__nav {
   background: rgba(255, 255, 255, 0.1);
 }
@@ -311,10 +310,6 @@ header {
   height: calc(100vh - 3rem);
   display: grid;
   place-items: center;
-}
-
-/* background gradient on dark theme */
-.dark-theme-variables header {
   background: linear-gradient(var(--color-gray-100), var(--color-gray-0));
 }
 
@@ -375,13 +370,8 @@ header {
 }
 
 .header__socials a:hover {
-  background: var(--color-primary);
+  background: var(--color-gray-700);
   color: var(--color-gray-0);
-}
-
-.dark-theme-variables .header__socials a:hover {
-  background: var(--color-primary);
-  color: var(--color-gray-900);
 }
 
 /* RESUME */
@@ -409,7 +399,7 @@ header {
 
 .resume__right h4 {
   margin-bottom: 0.5rem;
-  color: var(--color-primary);
+  color: var(--color-gray-900);
 }
 
 .resume__right > p {
@@ -485,22 +475,6 @@ header {
   padding: 0;
   gap: 0.3rem;
   border: 0;
-}
-
-.resume__right.about li h6 {
-  color: var(--color-gray-500);
-}
-
-.resume__right.about li h5 {
-  color: var(--color-gray-900);
-}
-
-.dark-theme-variables .resume__right h4 {
-  color: var(--color-gray-900);
-}
-
-.dark-theme-variables .resume__right ul li h5 {
-  color: var(--color-gray-900); /* Light gray for titles in dark mode */
 }
 
 /* PROJECTS */
@@ -665,20 +639,16 @@ form button {
   font-weight: 600;
   color: var(--color-gray-900);
   margin-bottom: 2rem;
+  margin-top: 1.2rem;
 }
 
-.dark-theme-variables .contact__intro {
-  color: var(--color-gray-400);
+.contact__options a {
+  color: var(--color-gray-700);
+  background: var(--color-gray-0);
 }
 
-.dark-theme-variables .contact__options a {
-  background: var(--color-primary);
-  color: var(--color-gray-900);
-}
-
-.dark-theme-variables .contact__options a:hover {
-  background: var(--color-primary-variant); /* Slightly lighter hover effect */
-  color: var(--color-primary); /* Primary color for text/icons */
+.contact__options a:hover {
+  background: var(--color-gray-700);
 }
 
 /* MEDIA QUERIES */
