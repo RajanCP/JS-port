@@ -84,10 +84,9 @@ const skillsContent = `
             <span></span>
         </li>
         <li>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="ReactJS logo" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Springboot logo" />
             <span></span>
         </li>
-        
     </ul>
 `;
 
@@ -104,12 +103,12 @@ const experienceContent = `
     <p><br></p>
     <ul>
         <li>
-          <h5>JustIT Bootcamp<span> (July 24 - October 24)</span></h5>
-            <p>Skills Bootcamp in Software development</p>
+          <h5>JustIT <span> (July 24 - October 24)</span></h5>
+            <p>Government Skills Bootcamp in Software Development</p>
         </li>
         <li>
-          <h5>_nology <span> (Jun 25 - Aug 25)</span></h5>
-            <p>_nology Pathway-to-Tech Programme (8 week intensive course in software engineering)</p>
+          <h5>_nology <span> (June 25 - August 25)</span></h5>
+            <p>_nology Pathway-to-Tech Programme (8 week intensive training in Software Development)</p>
         </li>
     </ul>
 `;
